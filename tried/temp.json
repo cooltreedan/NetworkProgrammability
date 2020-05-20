@@ -1,0 +1,55 @@
+{
+    "items": [
+        {
+            "activeMacAddress": "",
+            "channelGroupID": "",
+            "channelGroupMode": "active",
+            "duplex": "auto",
+            "flowcontrolHigh": -1,
+            "flowcontrolLow": -1,
+            "flowcontrolOn": false,
+            "flowcontrolPeriod": -1,
+            "forwardTrafficCX": false,
+            "forwardTrafficSFR": false,
+            "hardwareID": "GigabitEthernet0/0",
+            "interfaceDesc": "",
+            "ipAddress": {
+                "ip": {
+                    "kind": "IPv4Address",
+                    "value": "192.168.50.200"
+                },
+                "kind": "StaticIP",
+                "netMask": {
+                    "kind": "IPv4NetMask",
+                    "value": "255.255.255.0"
+                }
+            },
+            "ipv6Info": {
+                "autoConfig": false,
+                "dadAttempts": 1,
+                "enabled": false,
+                "enforceEUI64": false,
+                "ipv6Addresses": [],
+                "kind": "object#Ipv6InterfaceInfo",
+                "managedAddressConfig": false,
+                "nDiscoveryPrefixList": [],
+                "nsInterval": 1000,
+                "otherStatefulConfig": false,
+                "reachableTime": 0,
+                "routerAdvertInterval": 200,
+                "routerAdvertIntervalUnit": "sec",
+                "routerAdvertLifetime": 1800,
+                "suppressRouterAdvert": false
+            },
+            "kind": "object#GigabitInterface",
+            "lacpPriority": -1,
+            "managementOnly": false,
+            "mtu": 1500,
+            "name": "mgmt",
+            "objectId": "GigabitEthernet0_API_SLASH_0",
+            "securityLevel": 100,
+            "selfLink": "https://192.168.50.200/api/interfaces/physical/GigabitEthernet0_API_SLASH_0",
+            "shutdown": false,
+            "speed": "auto",
+            "standByMacAddress": ""
+        },
